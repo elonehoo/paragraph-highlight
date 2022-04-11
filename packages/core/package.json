@@ -1,11 +1,17 @@
 {
-  "name": "core",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@elonehoo/paragraph-highlight",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "description": "vue text highlight component",
+  "license": "MIT",
+  "author": "Elonehoo <huchengyea@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elonehoo/paragraph-highlight",
+    "directory": "packages/core"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "vue": "^3.2.25"
