@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "vue text highlight component",
   "main": "index.js",
+  "packageManager": "pnpm@6.28.0",
   "scripts": {
     "publish": "npm -C packages/core run publish",
     "example:vue": "npm -C example/vue-demo run dev",
