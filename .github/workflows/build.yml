@@ -17,8 +17,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.1
 
-      - name: Install node
-        working-directory: ./example/vue-demo
+      - name: Install node        
         uses: actions/setup-node@v3
         with:
           cache: pnpm
