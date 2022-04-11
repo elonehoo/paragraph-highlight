@@ -23,11 +23,11 @@ jobs:
           cache: pnpm
 
       - name: Install
-        working-directory: ./example/vue-demo
+        working-directory: example/vue-demo
         run: pnpm install
 
       - name: Run Build
-        working-directory: ./example/vue-demo
+        working-directory: example/vue-demo
         run: pnpm run example:build
 
       - name: echo cname
