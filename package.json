@@ -4,7 +4,8 @@
   "description": "vue text highlight component",
   "main": "index.js",
   "scripts": {
-    "publish": "npm -C packages/core run publish"
+    "publish": "npm -C packages/core run publish",
+    "example:vue": "npm -C example/vue-demo run dev"
   },
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT"
