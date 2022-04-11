@@ -66,6 +66,14 @@ By using matches emit, you can know from the parent component whether it is high
 <summary>Example</summary>
 
 ```vue
+<script setup lang="ts">
+import { ref } from "vue";
+import paragraphHighlight from '@elonehoo/paragraph-highlight/src'
+
+const matches = ref([]);
+
+</script>
+
 <template>
   <div>
     Matched word count: {{ matches.length }}
@@ -74,11 +82,7 @@ By using matches emit, you can know from the parent component whether it is high
     The word highlighter library for Vue 3.x
   </paragraphHighlight>
 </template>
-<script setup lang="ts">
-import { ref } from "vue";
-import paragraphHighlight from '@elonehoo/paragraph-highlight/src'
-const matches = ref([]);
-</script>
+
 ```
 
 </details>
