@@ -1,5 +1,5 @@
-<div align="center" height="150">
-<img src="./public/logo.svg">
+<div align="center" >
+<img src="./public/logo.svg" height="150">
 </div>
 
 <h1 align="center">Paragraph Highlight</h1>
