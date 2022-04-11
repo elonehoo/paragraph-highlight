@@ -1,0 +1,11 @@
+{
+  "name": "paragraph-highlight",
+  "version": "0.0.1",
+  "description": "vue text highlight component",
+  "main": "index.js",
+  "scripts": {
+    "core": "npm -C packages/core run dev"
+  },
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT"
+}
