@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "publish": "npm -C packages/core run publish",
-    "example:vue": "npm -C example/vue-demo run dev"
+    "example:vue": "npm -C example/vue-demo run dev",
+    "example:build": "npm -C example/vue-demo run build"
   },
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT"
