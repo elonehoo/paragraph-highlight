@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Build
         working-directory: ./example/vue-demo
-        run: pnpm run example:build
+        run: pnpm run build
 
       - name: echo cname
         run: echo 'paragraph.elonehoo.xyz' > example/vue-demo/dist/CNAME
