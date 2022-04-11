@@ -1,4 +1,1 @@
-<img src="./public/logo.svg">
-
-<h1>Paragraph Highlight</h1>
-
+<h1>Core</h1>
