@@ -18,16 +18,17 @@ jobs:
         uses: pnpm/action-setup@v2.2.1
 
       - name: Install node
+        working-directory: ./example/vue-demo
         uses: actions/setup-node@v3
         with:
           cache: pnpm
 
       - name: Install
-        working-directory: example/vue-demo
+        working-directory: ./example/vue-demo
         run: pnpm install
 
       - name: Run Build
-        working-directory: example/vue-demo
+        working-directory: ./example/vue-demo
         run: pnpm run example:build
 
       - name: echo cname
