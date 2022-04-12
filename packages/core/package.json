@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/paragraph-highlight",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "index.ts",
   "description": "vue text highlight component",
   "license": "MIT",
