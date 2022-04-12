@@ -37,7 +37,7 @@ import paragraphHighlight from '@elonehoo/paragraph-highlight/src'
 
 Output
 
-![readme_1.png](../../public/logo.svg)
+![readme_1.png](../../public/readme_1.png)
 
 ## Details
 ### Props
