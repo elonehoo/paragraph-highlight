@@ -1,5 +1,5 @@
 <div align="center" >
-<img src="../public/logo.svg" height="100">
+<img src="../../public/logo.svg" height="100">
 </div>
 
 <h1 align="center">Paragraph Highlight</h1>
@@ -37,7 +37,7 @@ import paragraphHighlight from '@elonehoo/paragraph-highlight/src'
 
 Output
 
-![readme_1.png](./public/readme_1.png)
+![readme_1.png](../../public/logo.svg)
 
 ## Details
 ### Props
