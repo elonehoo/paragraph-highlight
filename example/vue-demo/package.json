@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@elonehoo/paragraph-highlight": "^0.0.1",
-    "@vueuse/core": "^7.7.1",
+    "@vueuse/core": "^11.1.0",
     "vue": "^3.2.31",
     "vue-router": "^4.0.14"
   },
