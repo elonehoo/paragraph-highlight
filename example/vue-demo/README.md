@@ -1,5 +1,5 @@
 <div align='center'>
-<img wigth='100px' height='100px' src="https://viden.netlify.app/favicon.svg">
+<img wigth='100px' height='100px' alt="favicon" src="https://viden.netlify.app/favicon.svg">
 </div>
 
 <h1 align='center'>

@@ -1,22 +1,16 @@
+import paragraphHighlight from '@elonehoo/paragraph-highlight/src'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
-import Counter from '../src/components/Counter.vue'
 
-describe('Counter.vue', () => {
-  it('should render', () => {
-    const wrapper = mount(Counter, { props: { initial: 10 } })
-    expect(wrapper.text()).toContain('10')
-    expect(wrapper.html()).toMatchSnapshot()
-  })
+describe('paragraphHighlight', () => {
+  it('wraps matched text', () => {
+    const wrapper = mount(paragraphHighlight, {
+      props: { query: 'vue' },
+      slots: { default: 'hello vue world' },
+    })
 
-  it('should be interactive', async() => {
-    const wrapper = mount(Counter, { props: { initial: 0 } })
-    expect(wrapper.text()).toContain('0')
-
-    expect(wrapper.find('.inc').exists()).toBe(true)
-
-    await wrapper.get('button').trigger('click')
-
-    expect(wrapper.text()).toContain('1')
+    expect(wrapper.text()).toContain('hello vue world')
+    expect(wrapper.html()).toContain('<mark')
+    expect(wrapper.html()).toContain('vue')
   })
 })

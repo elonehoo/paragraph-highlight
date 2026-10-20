@@ -1,12 +1,12 @@
-/// <reference types="vitest" />
+/// <reference types="vitest/config" />
 
-import path from 'path'
-import { defineConfig } from 'vite'
+import path from 'node:path'
 import Vue from '@vitejs/plugin-vue'
-import Pages from 'vite-plugin-pages'
-import Components from 'unplugin-vue-components/vite'
-import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import Pages from 'vite-plugin-pages'
+import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
   resolve: {

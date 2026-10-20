@@ -34,6 +34,8 @@ const createHighlightPattern = (options: {
   );
 };
 
+type HighlightBinding = string | Record<string, unknown> | unknown[];
+
 export const createHighlightWordChunk = (
   targetText: string,
   options: {
@@ -41,8 +43,8 @@ export const createHighlightWordChunk = (
     splitBySpace: boolean;
     caseSensitive: boolean;
     highlightTag: string;
-    highlightClass: string;
-    highlightStyle: string;
+    highlightClass: HighlightBinding;
+    highlightStyle: HighlightBinding;
   }
 ) => {
   if (
